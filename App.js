@@ -30,7 +30,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="auth" component={ AuthStack } options={{headerShown:false}}/>
-        <Stack.Screen name="main" component={ MainStack }/>
+        <Stack.Screen name="main" component={ MainStack } options={{headerShown:false}}/>
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -9,7 +9,8 @@ export function MainStack(){
     const Drawer = createDrawerNavigator();
 
     return(
-        <Drawer.Navigator initialRouteName="Dashboard">
+        <Drawer.Navigator 
+            initialRouteName="Dashboard">
             <Drawer.Screen name="dashboard" component={ Dashboard }/>
             <Drawer.Screen name="settings" component={ Settings }/>
             <Drawer.Screen name="about" component={ About }/>

@@ -9,8 +9,8 @@ export function AuthStack(){
 
     return(
         <Stack.Navigator>
-            <Stack.Screen name="login" component={ Login } options={{headerShown:false}}/>
-            <Stack.Screen name="signup" component={ SignUp } options={{headerShown:false}}/>
+            <Stack.Screen name="login" component={ Login } options={{headerShown:false, gestureDirection:"horizontal"}}/>
+            <Stack.Screen name="signup" component={ SignUp } options={{headerShown:false, gestureDirection:"horizontal"}}/>
         </Stack.Navigator>
     );
 }
